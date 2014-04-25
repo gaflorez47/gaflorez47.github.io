@@ -1,0 +1,179 @@
+body{
+  background: #ececec;
+}
+.canvas_wrapper{
+	width: 1200px;
+	height: 720px;
+	position: relative;
+  float: left;
+}
+
+.canvas {
+	position: relative;
+	width: 100%;
+	height: 100%;
+  background: white;
+}
+
+.canvas .section {
+	position: relative;
+	float: left;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 100px auto;
+}
+
+.canvas .top {
+	position: relative;
+	width: 100%;
+	height: 80%;
+}
+
+.canvas .bottom {
+	position: relative;
+	width: 100%;
+	height: 20%;	
+}
+
+.canvas .bottom .section {
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+.canvas .top .section {
+	position: relative;
+	width: 20%;
+	height: 100%;
+}
+
+.canvas .top .vertical {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.canvas .top .vertical .section {
+	height: 50%;
+	width: 100%;
+}
+
+.canvas .section .content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-left: 1px solid black;
+}
+.canvas .vertical .section:last-child .content{
+  border-right: 0;
+  border-top: 1px solid black;
+}
+.canvas .vertical .section:first-child .content{
+  border-top: 1px solid black;
+}
+
+.canvas .section:last-child .content{
+  border-right: 1px solid black; 
+} 
+
+.canvas .top > .section .content {
+  border-top: 1px solid black; 
+}
+
+.canvas .bottom .section .content{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.canvas .section .title {
+	margin: 0px;
+	padding: 5px;
+}
+
+.canvas .section.key_partners{
+	background-image: url(./img/key_partners_big.png);
+}
+
+.canvas .section.key_activities{
+	background-image: url(./img/key_activities_big.png);
+}
+
+.canvas .section.key_resources{
+	background-image: url(./img/key_resources_big.png);
+}
+
+.canvas .section.value_proposition{
+	background-image: url(./img/value_proposition_big.png);
+}
+
+.canvas .section.customer_relationships{
+	background-image: url(./img/customer_relationships_big.png);
+}
+
+.canvas .section.channels{
+	background-image: url(./img/channels_big.png);
+}
+
+.canvas .section.customer_segments{
+	background-image: url(./img/customer_segments_big.png);
+}
+.canvas .section.cost_structure{
+	background-image: url(./img/cost_structure_big.png);
+}
+.canvas .section.revenue_streams{
+	background-image: url(./img/revenue_streams_big.png);
+}
+
+.canvas .section .list_wrapper{
+  position: relative;
+  overflow-y: auto;
+  max-height: 90%;
+}
+.canvas .vertical .section .list_wrapper{ max-height: 80%; }
+.canvas .bottom .section .list_wrapper{ max-height: 60%; }
+
+.sticky_list{
+  position: relative;
+  width: 100%;
+}
+
+.sticky{
+  width: 140px;
+  min-height: 50px;
+  background-color: #E9E74A;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+}
+.sticky.red{
+  background-color: #EE5E4F;
+}
+.sticky.orange{
+  background-color: #F9A55B;
+}
+.sticky.blue{
+  background-color: #36A9CE;
+}
+.sticky.purple{
+  background-color: #AE86BC;
+}
+.sticky.green{
+  background-color: #9ACD32;
+}
+
+#editor {
+  float: left;
+  width: 350px;
+  height: 720px;
+  position: relative;
+  top: 105px;
+}
+#editor.hidden{
+  width: 0px;
+  height: 0px;
+}
+
+.page_wrapper {
+  width: 1550px;
+}

@@ -1,0 +1,50 @@
+project_name: Cat Lemonade Online
+key_partners:
+  - lemon tree farmers
+  - color: red
+    text: Rich cats
+  - color: green
+    text: Paypal
+key_activities:
+  - Making lemonade
+  - color: orange
+    text: Marketing
+  - color: purple
+    text: Sells
+key_resources:
+  - Lemons
+  - color: blue
+    text: Sugar
+  - color: purple
+    text: Online payments page
+value_proposition:
+  - color: blue
+    Old fashion lemonade:
+    - Cold
+    - Tasty
+    - Delivered to your house
+    - Online payments
+customer_relationships:
+  - color: blue
+    text: Personal
+channels:
+  - color: blue
+    text: Lemonade booth sales
+  - color: green
+    text: Pagina web catlemonade.com
+customer_segments:
+  - color: blue
+    thirsty people:
+      - 20 to 40 years
+      - they have a credit card
+cost_structure:
+  - salaries
+  - ingridients
+  - equipment
+  - delivers
+  - online marketing
+revenue_streams:
+  - color: blue
+    text: lemonade sales
+  - color: blue
+    text: tips
