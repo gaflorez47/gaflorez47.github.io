@@ -31,7 +31,7 @@ channels:
   - color: blue
     text: Lemonade booth sales
   - color: green
-    text: Pagina web catlemonade.com
+    text: Web page catlemonade.com
 customer_segments:
   - color: blue
     thirsty people:
