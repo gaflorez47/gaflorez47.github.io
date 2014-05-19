@@ -1,0 +1,184 @@
+body{
+  font-family: 'Open Sans';
+}
+ul{list-style-type: none; padding: 0;}
+h2{margin: 0;}
+.section{
+  float: left;
+  position: relative;
+  width: 450px;
+  padding-left: 20px;
+}
+
+.section > div, .timeline > * {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.section.last{
+  border-left: 1px black dotted;
+}
+.section:first-of-type{
+
+  padding-left: 100px;
+}
+
+.contact img{
+  height: 100%;
+  position: relative;
+  left: -40px;
+   -webkit-filter: grayscale(100%);
+}
+
+.contact .picture{
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left: -100px;
+}
+
+.contact .data{
+  float: left;
+  padding-left: 20px;
+}
+
+.contact .name{
+  margin: 0;
+}
+.contact .title{
+  margin: 0;
+  font-size: 18px;
+}
+
+.blue_text {
+  color: #86C3DA;
+  font-weight: lighter;
+}
+
+.timeline .job{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section h2{
+  color: #37445D;
+}
+.timeline .dot {
+  background: #46a9d3;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  position: absolute;
+  left: -28px;
+  top: 4px;
+  z-index: 2;
+}
+.timeline .date {
+  position: absolute;
+  top: 0px;
+  margin: 0;
+  left: -135px;
+  text-align: right;
+  width: 100px;
+  background: white;
+  padding-right: 20px;
+  z-index: 1;
+}
+
+.timeline .date.last{
+  height: 80px;
+}
+
+.timeline p {
+  margin: 0;
+}
+.timeline .place {
+  color: #232020;
+  font-weight: bold;
+}
+.timeline{
+  float: left;
+  border-left: 1px solid black;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.skills li {
+  position: relative;
+  margin-bottom: 5px;
+}
+.skills li .icon{
+  width: 20px;
+  height: 20px;
+  left: -32px;
+}
+.icon{
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: 0px;
+  left: -38px;
+  background-color: white;
+}
+
+.education_icon{
+  background-image: url(./img/education.png);
+}
+
+.work_icon{
+  background-image: url(./img/work.png);
+}
+
+.languages_icon{
+  background-image: url(./img/languages.png);
+}
+.skills_icon{
+  background-image: url(./img/skills.png);
+}
+.about_icon{
+  background-image: url(./img/about.png);
+}
+.html_icon{
+  background-image: url(./img/html.png);
+}
+.css_icon{
+  background-image: url(./img/css.png);
+}
+.jquery_icon{
+  background-image: url(./img/jquery.png);
+}
+.wordpress_icon{
+  background-image: url(./img/wordpress.png);
+}
+.drupal_icon{
+  background-image: url(./img/drupal.png);
+}
+.php_icon{
+  background-image: url(./img/php.png);
+}
+.ruby_icon{
+  background-image: url(./img/ruby.png);
+}
+.javascript_icon{
+  background-image: url(./img/javascript.png);
+}
+.mysql_icon{
+  background-image: url(./img/mysql.png);
+}
+.ubuntu_icon{
+  background-image: url(./img/ubuntu.png);
+}
+.java_icon{
+  background-image: url(./img/java.png);
+}
+.chef_icon{
+  background-image: url(./img/chef.png);
+}
+.capistrano_icon{
+  background-image: url(./img/capistrano.png);
+}
