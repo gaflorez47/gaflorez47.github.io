@@ -157,6 +157,8 @@ h2{margin: 0;}
   top: 0px;
   left: -38px;
   background-color: white;
+  background-origin: top left;
+  background-repeat: no-repeat;
 }
 
 .education_icon{
