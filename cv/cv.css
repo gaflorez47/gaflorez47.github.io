@@ -115,6 +115,7 @@ h2{margin: 0;}
   border-left: 1px solid black;
   padding-left: 20px;
   margin-top: 40px;
+  width: 91% !important;
 }
 
 .skills li {
