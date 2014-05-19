@@ -3,6 +3,12 @@ body{
 }
 ul{list-style-type: none; padding: 0;}
 h2{margin: 0;}
+.section_wrapper{
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 500px;
+}
 .section{
   float: left;
   position: relative;
@@ -207,4 +213,18 @@ h2{margin: 0;}
 }
 .capistrano_icon{
   background-image: url(./img/capistrano.png);
+}
+.hobbies{
+  padding-left: 20px;
+}
+.hobbies li {
+  float: left;
+  width: 50%;
+  position: relative;
+  padding-top: 30px;
+}
+
+.hobbies li img{
+  position: absolute;
+  top: 0;
 }
